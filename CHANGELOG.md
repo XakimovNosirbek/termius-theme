@@ -4,6 +4,10 @@ All notable changes to this project are documented here. The format follows [Kee
 
 ## [Unreleased]
 
+### Changed
+
+- Flat Termius layout: side bar, tab strip, title bar and status bar share the editor background; tabs are raised `#202436` cards with gaps, as in the Termius app.
+
 ## [1.0.0] - 2026-11-24
 
 ### Added

@@ -93,9 +93,9 @@ function editorWindow(p) {
   .side h6{font-size:11px;letter-spacing:.06em;color:${p.fgMuted};font-weight:600;padding:0 14px 8px}
   .side div{padding:2px 14px;white-space:pre}.side .sel{background:${p.accent}33;outline:1px solid ${p.accent}99;outline-offset:-1px}
   .work{flex:1;display:flex;flex-direction:column;min-width:0}
-  .tabs{height:36px;background:${p.bgAlt};display:flex;border-bottom:1px solid ${p.border}}
-  .tab{padding:0 18px;display:flex;align-items:center;color:${p.fgMuted};border-right:1px solid ${p.bgAlt}}
-  .tab.on{background:${p.bg};color:${p.fg};box-shadow:inset 0 2px 0 ${p.accent}}
+  .tabs{height:38px;background:${p.bg};display:flex;gap:5px;padding:5px 5px 0}
+  .tab{padding:0 18px;display:flex;align-items:center;color:${p.fgMuted};background:${p.bgHi};border-radius:6px 6px 0 0}
+  .tab.on{background:${p.bgHover};color:${p.fg};box-shadow:inset 0 2px 0 ${p.accent}}
   .crumb{height:24px;background:${p.bg};color:${p.fgMuted};padding:3px 18px}
   .ed{flex:1;background:${p.bg};padding:4px 0}
   .ln{display:flex;white-space:pre;padding-right:16px}.ln .no{width:52px;text-align:right;padding-right:22px;color:${p.fgSubtle}}
