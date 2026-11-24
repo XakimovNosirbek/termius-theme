@@ -95,6 +95,14 @@ The original Termius dark blue (`#08639f`) is dim on navy. VS Code raises low-co
 | Number | `#ff9b8a` | `#b8402c` |
 | Comment | `#7c82a3` | `#6b7090` |
 
+## Claude Code chat plugin
+
+The repository also ships **termius-chat**, a Claude Code plugin that colours the Claude chat in VS Code to match: prompt cards, tool rows framed and iconed by what they do, highlighted SQL and files, and pipeline / mermaid diagrams drawn in the chat. See [claude-plugin/termius-chat](claude-plugin/termius-chat/README.md).
+
+```
+/plugin install termius-chat --marketplace XakimovNosirbek/termius-theme
+```
+
 ## Development
 
 Every theme file is generated. Edit the palette, not the JSON.

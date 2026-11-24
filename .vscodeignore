@@ -10,3 +10,5 @@ images/preview-*.png
 .gitattributes
 CONTRIBUTING.md
 package-lock.json
+claude-plugin/**
+.claude-plugin/**

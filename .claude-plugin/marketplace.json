@@ -1,0 +1,11 @@
+{
+  "name": "termius-theme",
+  "owner": { "name": "XakimovNosirbek" },
+  "plugins": [
+    {
+      "name": "termius-chat",
+      "source": "./claude-plugin/termius-chat",
+      "description": "Termius-coloured Claude Code chat for VS Code"
+    }
+  ]
+}

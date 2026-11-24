@@ -1,0 +1,9 @@
+{
+  "name": "termius-chat",
+  "version": "1.0.0",
+  "description": "Termius-coloured Claude Code chat in VS Code: green prompt cards, tool rows framed and iconed by what they do (SQL, network, git, files, browser), highlighted SQL and files, pipeline/mermaid diagrams drawn in the chat, and a per-turn summary band.",
+  "author": { "name": "XakimovNosirbek", "url": "https://github.com/XakimovNosirbek" },
+  "license": "MIT",
+  "repository": "https://github.com/XakimovNosirbek/termius-theme",
+  "types": "./types/index.d.ts"
+}

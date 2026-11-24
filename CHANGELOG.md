@@ -4,6 +4,10 @@ All notable changes to this project are documented here. The format follows [Kee
 
 ## [Unreleased]
 
+### Added
+
+- `termius-chat` Claude Code plugin and a plugin marketplace file (`/plugin install termius-chat --marketplace XakimovNosirbek/termius-theme`).
+
 ### Changed
 
 - GitHub-style diff colours (soft line tint, stronger word tint) and a slightly raised code block background.
