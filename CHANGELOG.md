@@ -4,6 +4,10 @@ All notable changes to this project are documented here. The format follows [Kee
 
 ## [Unreleased]
 
+### Changed
+
+- GitHub-style diff colours (soft line tint, stronger word tint) and a slightly raised code block background.
+
 ### Added
 
 - Log colours (errors, warnings, info, dates, numbers, exceptions) for the `log` language, used by tool output windows.
