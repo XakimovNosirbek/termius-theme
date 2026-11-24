@@ -1,0 +1,68 @@
+{
+  "name": "termius-theme",
+  "displayName": "Termius Theme",
+  "description": "Deep navy UI, signal-green accent and the Termius Dark terminal palette. Dark, Midnight and Light variants, contrast-checked.",
+  "version": "1.0.0",
+  "publisher": "xakimovnosirbek",
+  "license": "MIT",
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#141729",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark theme",
+    "light theme",
+    "navy",
+    "terminal",
+    "termius",
+    "ssh",
+    "green",
+    "midnight",
+    "color theme"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/XakimovNosirbek/termius-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/XakimovNosirbek/termius-theme/issues"
+  },
+  "homepage": "https://github.com/XakimovNosirbek/termius-theme#readme",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Termius Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/termius-dark-color-theme.json"
+      },
+      {
+        "label": "Termius Midnight",
+        "uiTheme": "vs-dark",
+        "path": "./themes/termius-midnight-color-theme.json"
+      },
+      {
+        "label": "Termius Light",
+        "uiTheme": "vs",
+        "path": "./themes/termius-light-color-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/build.mjs --check && node scripts/check.mjs",
+    "preview": "node scripts/preview.mjs",
+    "package": "node -e \"require('fs').mkdirSync('dist',{recursive:true})\" && vsce package --out dist/",
+    "vscode:prepublish": "node scripts/build.mjs --check && node scripts/check.mjs"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^4.1.1"
+  }
+}

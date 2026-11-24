@@ -1,0 +1,12 @@
+.github/**
+.vscode/**
+scripts/**
+src/**
+dist/**
+node_modules/**
+images/preview-*.png
+**/*.log
+.gitignore
+.gitattributes
+CONTRIBUTING.md
+package-lock.json
