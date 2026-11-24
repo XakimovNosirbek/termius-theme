@@ -1442,6 +1442,90 @@
       }
     },
     {
+      "name": "Log error",
+      "scope": [
+        "log.error",
+        "markup.deleted.log"
+      ],
+      "settings": {
+        "foreground": "#c42b33",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Log warning",
+      "scope": [
+        "log.warning"
+      ],
+      "settings": {
+        "foreground": "#8a5a00",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Log info",
+      "scope": [
+        "log.info"
+      ],
+      "settings": {
+        "foreground": "#0a5fb0"
+      }
+    },
+    {
+      "name": "Log debug",
+      "scope": [
+        "log.debug",
+        "log.verbose"
+      ],
+      "settings": {
+        "foreground": "#6b7090"
+      }
+    },
+    {
+      "name": "Log date & time",
+      "scope": [
+        "log.date",
+        "log.time",
+        "comment.line.date.log"
+      ],
+      "settings": {
+        "foreground": "#1d6b42"
+      }
+    },
+    {
+      "name": "Log constants",
+      "scope": [
+        "log.constant",
+        "constant.language.log",
+        "constant.numeric.log"
+      ],
+      "settings": {
+        "foreground": "#b8402c"
+      }
+    },
+    {
+      "name": "Log strings",
+      "scope": [
+        "log.string",
+        "string.quoted.log"
+      ],
+      "settings": {
+        "foreground": "#00735c"
+      }
+    },
+    {
+      "name": "Log exceptions",
+      "scope": [
+        "log.exception",
+        "log.exceptiontype",
+        "entity.name.exception.log"
+      ],
+      "settings": {
+        "foreground": "#a3266c",
+        "fontStyle": "bold"
+      }
+    },
+    {
       "name": "Invalid",
       "scope": [
         "invalid",

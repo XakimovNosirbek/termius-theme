@@ -4,6 +4,10 @@ All notable changes to this project are documented here. The format follows [Kee
 
 ## [Unreleased]
 
+### Added
+
+- Log colours (errors, warnings, info, dates, numbers, exceptions) for the `log` language, used by tool output windows.
+
 ### Changed
 
 - Flat Termius layout: side bar, tab strip, title bar and status bar share the editor background; tabs are raised `#202436` cards with gaps, as in the Termius app.

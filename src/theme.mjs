@@ -714,6 +714,16 @@ export function tokenColors(p) {
     rule('SQL types & functions', ['storage.type.sql', 'support.function.aggregate.sql', 'support.function.scalar.sql'], s.function),
     rule('C# & Java', ['entity.name.variable.local.cs', 'entity.name.variable.field.cs', 'entity.name.variable.property.cs'], s.property),
 
+    // ---- logs (VS Code "log" language: tool output, terminals saved to file) ----
+    rule('Log error', ['log.error', 'markup.deleted.log'], s.tag, 'bold'),
+    rule('Log warning', ['log.warning'], s.type, 'bold'),
+    rule('Log info', ['log.info'], s.function),
+    rule('Log debug', ['log.debug', 'log.verbose'], s.comment),
+    rule('Log date & time', ['log.date', 'log.time', 'comment.line.date.log'], s.namespace),
+    rule('Log constants', ['log.constant', 'constant.language.log', 'constant.numeric.log'], s.number),
+    rule('Log strings', ['log.string', 'string.quoted.log'], s.string),
+    rule('Log exceptions', ['log.exception', 'log.exceptiontype', 'entity.name.exception.log'], s.keyword, 'bold'),
+
     rule('Invalid', ['invalid', 'invalid.illegal'], s.invalid, 'underline'),
     rule('Deprecated', ['invalid.deprecated'], s.comment, 'strikethrough'),
   ];
